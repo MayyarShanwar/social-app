@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{ @apply mx-auto max-w-screen-sm p-6 border-gray-200 rounded-md shadow-xl bg-gray-50 grid}
+
+.postCard{ @apply mx-auto max-w-screen-lg w-full p-6 border-gray-200 rounded-md shadow-xl bg-gray-50 }
+
+.input{@apply placeholder:text-sm p-2 mx-auto w-full h-8 border rounded-lg border-stone-400 my-1 }
+
+.textarea{@apply border placeholder:text-sm  border-stone-400 rounded-lg h-auto my-1 p-2 }
+
+.label{@apply ml-1 mt-2}
+
+.btn{@apply bg-blue-900 hover:bg-blue-950 text-white h-10 w-2/3 mx-auto mt-4 rounded-md}
+
+.deletebtn{@apply bg-red-700 hover:bg-red-900 text-white h-10 w-1/6 mt-4 rounded-md}
+
+.editbtn{@apply bg-green-700 hover:bg-green-900 text-white h-10 w-1/6 mt-4 rounded-md}
+
+.error{@apply text-red-700 text-xs ml-1}
